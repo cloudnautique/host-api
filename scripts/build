@@ -17,4 +17,4 @@ fi
 echo export GOPATH=$GOPATH
 
 mkdir -p bin
-go build -o bin/host-api
+go build -v -o bin/host-api

@@ -1,6 +1,11 @@
 machine:
   services:
     - docker
+  golang:
+    - version: 1.3
+dependencies:
+  override:
+    - echo "skip inferred"
 test:
   override:
     - ./scripts/ci
